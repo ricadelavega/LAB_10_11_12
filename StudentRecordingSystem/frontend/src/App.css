@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* 🔵 Centered top section with logo and name */
+.top-logo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px;
+}
+
+.top-logo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.school-name {
+  margin: 0;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Header below the logo */
+.app-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Student image styling */
+.student-image {
+  margin: 20px 0;
+  width: 150px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+}
+
+/* Optional: Card/Container styles for form/list */
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Buttons spacing */
+button {
+  margin-top: 10px;
+}

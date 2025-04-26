@@ -1,0 +1,91 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #4CAF50; /* Background color for header */
+  color: white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header h1 {
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 50px; /* Logo size */
+  height: 50px;
+}
+
+h2 {
+  color: #4CAF50; /* Color for sub-header */
+}
+
+/* Styling for form */
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  margin-right: 10px;
+}
+
+/* Styling for student list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e7f7e7;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:hover {
+  background-color: #d0f0d0;
+}
